@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,11 +52,21 @@
             this.label2.Text = "Corso Programmatori 20221/2022";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(73, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(588, 41);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Ente di Formazione Professionale Assofram";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1035, 652);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -69,5 +80,6 @@
 
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
